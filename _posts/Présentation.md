@@ -1,6 +1,6 @@
 ---
 Title: Hello world
-date: 2023-07-10 15:35:00 -500
+date: 2023-07-10 15:35:00
 categories: [tuto,logiciel]
 tags: [serveur,linux,windows,terminal]
 ---
