@@ -1,3 +1,9 @@
+---
+Title: Hello world
+date: 2023-07-10 15:35:00
+categories: [tuto,logitiel,système d'exploitaion]
+tags: [serveur,linux,windows,terminal]
+---
 # Bienvenue!
 
 Ce site s'adresse à tout le monde, quel que soit son niveau de connaissances en informatique.La complexité d'Internet et des nouvelles technologie peut être déconcertante, l'objectif est de rendre ces sujets plus accessibles à tous.
