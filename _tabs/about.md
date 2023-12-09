@@ -3,6 +3,7 @@
 icon: fas fa-info-circle
 order: 4
 ---
+<iframe src="/assets/3dasset.html"></iframe>
 
 Salut à tous!
 
