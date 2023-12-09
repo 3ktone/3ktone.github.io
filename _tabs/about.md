@@ -3,7 +3,6 @@
 icon: fas fa-info-circle
 order: 4
 ---
-<a href="/assets/3d_asset.html"></a>
 
 Salut à tous!
 
