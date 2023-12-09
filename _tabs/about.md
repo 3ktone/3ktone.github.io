@@ -5,7 +5,7 @@ order: 4
 ---
 
 {% raw %}
-<iframe src="https://3ktone.github.io/assets/3dasset.html" width="500" height="500"></iframe>
+<iframe src="https://3ktone.github.io/assets/3dasset.html" width="900" height="500"></iframe>
 {% endraw %}
 
 Salut à tous!
