@@ -3,7 +3,10 @@
 icon: fas fa-info-circle
 order: 4
 ---
-<iframe src="/assets/3dasset.html"></iframe>
+
+{% raw %}
+<iframe src="https://3ktone.github.io/assets/3dasset.html" width="500" height="500"></iframe>
+{% endraw %}
 
 Salut à tous!
 
