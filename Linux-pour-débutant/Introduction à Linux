@@ -1,0 +1,85 @@
+## Qu'est-ce que Linux ?
+Nous allons explorer ensemble Linux pour te donner les connaissances nécessaires afin de devenir un utilisateur avancé. Mais d’abord, posons-nous la question : **Qu'est-ce que Linux ?**  
+La réponse varie selon la personne interrogée, mais revenons un peu en arrière pour comprendre son origine.
+
+## Historique : Les débuts de Linux
+Dans les années 80, **Richard Stallman**, travaillant au laboratoire d'IA du MIT, a lancé un projet visant à créer un système UNIX entièrement libre et ouvert. Cette initiative est née d'une frustration : une licence de nouvelle imprimante du labo l’empêchait de modifier son code. Stallman, qui avait déjà modifié des imprimantes pour notifier l’état de l’impression permettant de savoir quand l'imprimante était libre, souhaitait continuer dans cette direction.
+
+### GNU et Linux
+Au début des années 90, il existait presque suffisamment de logiciels libres pour un système complet, mais le noyau **GNU Hurd** était encore en développement. En parallèle, **Linus Torvalds** a commencé un projet de hobby pour développer un noyau UNIX appelé **Linux**. Associé aux outils GNU, ce noyau a permis la création d’un système d’exploitation libre.
+
+### Définition de GNU
+
+**GNU** (acronyme récursif pour "GNU's Not Unix") est un projet lancé en 1983 par **Richard Stallman** dans le but de créer un système d'exploitation libre, offrant une alternative ouverte à UNIX. Le projet GNU vise à fournir aux utilisateurs une liberté complète pour utiliser, modifier, et partager leur logiciel. Bien qu'il ait été inspiré par UNIX, GNU n'est pas identique à UNIX et est conçu pour être complètement indépendant de tout code UNIX propriétaire.
+
+Le projet a permis de développer des outils essentiels comme le compilateur **GCC**, l'éditeur **Emacs**, et de nombreuses autres applications nécessaires au fonctionnement d’un OS complet. Cependant, le noyau du projet GNU, appelé **GNU Hurd**, n'a pas été finalisé. C'est pourquoi le noyau **Linux**, développé par **Linus Torvalds** en 1991, a été combiné avec les outils GNU pour créer une solution complète, souvent appelée "GNU/Linux".
+
+[GNU sur Wikipédia](https://fr.wikipedia.org/wiki/GNU)
+
+---
+
+### Qu'est-ce qu'UNIX ?
+
+**UNIX** est un système d'exploitation multitâche et multi-utilisateur créé dans les années 1970 par **Ken Thompson** et **Dennis Ritchie** aux laboratoires Bell d'AT&T. Il est réputé pour sa portabilité, sa simplicité et sa robustesse. UNIX a posé les bases pour de nombreux systèmes d'exploitation modernes, notamment grâce à son utilisation de la **hiérarchie des fichiers**, de **la ligne de commande** et des **permissions d'utilisateur**.
+
+De nombreux systèmes modernes, tels que **Linux** et **macOS**, sont inspirés de UNIX ou sont directement basés sur sa structure.
+Voici le lien Wikipédia pour **UNIX** :
+
+[UNIX sur Wikipédia](https://fr.wikipedia.org/wiki/Unix)
+
+---
+
+### Rapport entre UNIX et macOS (Apple)
+
+macOS, le système d'exploitation d'Apple pour ses ordinateurs Macintosh, est dérivé d'UNIX via **BSD (Berkeley Software Distribution)**, une variante libre d'UNIX. macOS s'appuie sur le noyau **XNU** (qui signifie "X is Not Unix" tout comme GNU), mais reste conforme à l’architecture UNIX. Il combine des technologies UNIX avec une interface graphique développée par Apple, offrant ainsi les avantages de la stabilité et de la sécurité d’UNIX.
+
+Ce lien fort avec UNIX confère à macOS une compatibilité avec de nombreux outils UNIX, ce qui le rend populaire auprès des développeurs et des utilisateurs avancés recherchant un environnement UNIX tout en profitant de l'écosystème Apple.
+
+---
+
+# Distribution Linux : Debian et Ubuntu
+
+## Les distributions Linux
+Une distribution Linux est une version spécifique de Linux, regroupant le noyau et des logiciels supplémentaires.  
+La distribution **Debian**, sponsorisée par la Free Software Foundation, est devenue la base d'une multitude de distributions Linux en raison de sa popularité et de sa nature libre. Aujourd’hui, **Debian** est une grande communauté où chacun peut contribuer.
+
+### Ubuntu : une distribution populaire
+Dans les années 2000, **Canonical** a lancé **Ubuntu**, une distribution basée sur Debian mais plus orientée utilisateur. Ubuntu est publiée deux fois par an avec un support à long terme (LTS) tous les deux ans.
+
+**Nom des versions d'Ubuntu :**
+- Les versions suivent le format année/mois (par ex. : **15.10** pour octobre 2015).
+- Les versions LTS (support de 5 ans) sont publiées en avril tous les deux ans.
+
+## Installer Ubuntu
+1. Rendez-vous sur [ubuntu.com](https://ubuntu.com) et téléchargez la dernière version dans la section "Desktop".
+2. Pour les serveurs, privilégiez la version LTS (support à long terme).
+3. Choisissez le type de téléchargement : via le navigateur ou via un **fichier torrent** (utile pour une connexion lente).
+
+---
+
+# Installation dans VirtualBox
+
+## Utiliser une machine virtuelle
+Avant d'installer Ubuntu sur le disque dur, on peut utiliser **VirtualBox** pour créer une machine virtuelle (VM) et découvrir le système sans s'engager.  
+Pour ce faire :
+1. Téléchargez VirtualBox sur [virtualbox.org](https://virtualbox.org).
+2. Sélectionnez le package pour votre système d'exploitation principal (ex. : **Windows 10**).
+
+---
+
+- #linux
+- #gnu
+- #debian
+- #ubuntu
+- #logiciel-libre
+- #virtualisation
+- #virtualbox
+- #installation-vm
+- #developpement-noyau
+- #fondation-logiciel-libre
+- #choix-distribution
+- #histoire-linux
+- #stallman
+- #torvalds
+- #gestion-paquets
+- #installation-systeme 
