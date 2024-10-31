@@ -3,7 +3,7 @@ layout: post
 title: GNU et Linux
 date: 2024-10-31 20:24:26
 categories: [Cours, Linux pour débutant, module 1]
-tags: [Qu'est-ce que Linux ?]
+tags: [linux, distribution, ubuntu, debian, kubuntu, kde, elementaryOS, linuxMint, environement-de-bureau, opensSUZE, Slakware]
 ---
 
 ---
