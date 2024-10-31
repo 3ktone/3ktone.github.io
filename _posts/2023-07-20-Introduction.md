@@ -5,12 +5,9 @@ date: 2023-07-20 15:35:00
 categories: [Cours, Fondamentaux]
 tags: [Concepts]
 ---
-Voici une version corrigée et améliorée de ton texte :
-
----
 
 **Comprendre Internet et les Machines qui le Composent**  
-===
+==
 
 ___Bonjour à tous!___  
 
