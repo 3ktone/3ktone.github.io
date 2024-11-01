@@ -1,12 +1,13 @@
 ---
 layout: post
-title: GNU et Linux
+title: introductio-à-linux
 date: 2024-10-31 20:24:26
 categories: [Cours, Linux pour débutant, module 1]
 tags: [linux, distribution, ubuntu, debian, kubuntu, kde, elementaryOS, linuxMint, environement-de-bureau, opensSUZE, Slakware]
 ---
 
----
+# Introduction à Linux
+===
 
 ## Qu'est-ce que Linux ?
 Nous allons explorer ensemble Linux pour te donner les connaissances necessaires afin de devenir un utilisateur avance. Mais dabord, posons nous la question : **Qu'est-ce que Linux ?**  
