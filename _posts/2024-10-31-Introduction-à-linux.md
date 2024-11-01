@@ -6,9 +6,6 @@ categories: [Cours, Linux pour débutant]
 tags: [linux, distribution, ubuntu, debian, kubuntu, kde, elementaryOS, linuxMint, environement-de-bureau, opensSUZE, Slakware]
 ---
 
-# Introduction à Linux
----
-
 ## Qu'est-ce que Linux ?
 Nous allons explorer ensemble Linux pour te donner les connaissances necessaires afin de devenir un utilisateur avance. Mais dabord, posons nous la question : **Qu'est-ce que Linux ?**  
 La reponse varie selon la personne interrogee, mais revenons un peu en arriere pour comprendre son origine.
