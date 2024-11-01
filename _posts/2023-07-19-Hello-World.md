@@ -11,7 +11,7 @@ categories: [Genesis]
 
 Cher lecteurs et lectrices je vous salut et vous souhaite la bienvenue!
 
-Ce site s'adresse à la communauté francophone, dans l'effort d'améliorer la compréhension et aider dans l'apprentissage, quel que soit son niveau de connaissances en informatique. La complexité d'Internet et des nouvelles technologie peut être intimidante, l'objectif est de rendre ces sujets plus accessibles à tous.
+Ce site s'adresse à la communauté francophone, dans l'effort d'améliorer la compréhension et aider dans l'apprentissage, quel que soit son niveau de connaissances en informatique. La complexité d'Internet et de ses nouvelles technologies peuvent être intimidantes, l'objectif est de rendre ces sujets plus accessibles à tous.
 
 Que vous soyez un simple débutant cherchant à acquérir des bases ou une personne ayant déjà une certaine expérience, cherchant à approfondir ses connaissances ou bien simplement quelqu'un qui cherche un projet sympa à faire, vous êtes au bonne endroit!
 
