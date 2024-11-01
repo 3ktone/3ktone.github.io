@@ -1,6 +1,6 @@
 ---
 layout: post
-title: introductio-à-linux
+title: introduction-à-linux
 date: 2024-10-31 20:24:26
 categories: [Cours, Linux pour débutant]
 tags: [linux, distribution, ubuntu, debian, kubuntu, kde, elementaryOS, linuxMint, environement-de-bureau, opensSUZE, Slakware]
