@@ -24,19 +24,27 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4  # Updated to v4
         with:
           fetch-depth: 0
       
+      - name: Setup Node.js
+        uses: actions/setup-node@v4  # Add Node.js setup
+        with:
+          node-version: '20'  # Specify Node.js 20
+      
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v3
+        uses: actions/configure-pages@v4  # Updated to v4
       
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3
           bundler-cache: true
+      
+      - name: Install Dependencies
+        run: bundle install
       
       - name: Build site
         run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
