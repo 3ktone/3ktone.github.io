@@ -44,5 +44,3 @@ Pour les distributions basees sur Ubuntu, le processus d'installation est genera
 
 ### Conclusion
 Explorez le monde des distributions Linux si vous etes curieux ! Il existe de nombreuses options, chacune avec ses propres caracteristiques, et Ubuntu reste un excellent choix pour commencer a se familiariser avec lecosysteme Linux.
-
----
