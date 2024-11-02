@@ -6,8 +6,6 @@ categories: [Cours, Linux pour débutant]
 tags: [linux, distribution, Ubuntu, Debian, Kubuntu, KDE, Unity, ElementaryOS, LinuxMint, environnement_de_bureau, openSUSE, Slackware]
 ---
 
----
-
 ### **Les Distributions Linux et leurs Types**
 
 Avant d'aborder l'installation et l'utilisation d'Ubuntu, il est essentiel de comprendre ce qu'est une distribution Linux. Une distribution, ou "distro", est une version de Linux creee a partir d'un ensemble specifique de logiciels et de configurations. Pour mieux comprendre, on peut imaginer un [**arbre de la famille Linux**](https://fr.wikipedia.org/wiki/Linux) (image dans la section distributions)ou les differentes branches representent les distributions majeures.
