@@ -3,7 +3,7 @@ layout: post
 title: Linux distribution
 date: 2024-11-02 06:01:16
 categories: [Cours, Linux pour débutant]
-tags: [linux, distribution, Ubuntu, Debian, Kubuntu, KDE, Unity, ElementaryOS, LinuxMint, environnement_de_bureau, openSUSE, Slackware]
+tags: [linux, distribution, Ubuntu, Debian, Kubuntu, KDE, Unity, ElementaryOS, LinuxMint, environnement de bureau, openSUSE, Slackware]
 ---
 
 ### **Les Distributions Linux et leurs Types**
