@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Installation de VirtualBox et d'Ubuntu
-date: 2024-11-03 17:48:54
+date: 2024-11-03 19:48:54
 categories: [Cours, Linux pour débutant]
 tags: [VirtualBox, Ubuntu, Tutoriel, Installation, MachineVirtuelle, Virtualisation, Linux, Windows, macOS, Debutant, GuidePasAPas, ISOUbuntu, ConfigurationVM, OpenSource, ApprendreLinux]
 ---
