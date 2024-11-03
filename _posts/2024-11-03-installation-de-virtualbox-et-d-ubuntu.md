@@ -6,8 +6,6 @@ categories: [Cours, Linux pour débutant]
 tags: [VirtualBox, Ubuntu, Tutoriel, Installation, MachineVirtuelle, Virtualisation, Linux, Windows, macOS, Debutant, GuidePasAPas, ISOUbuntu, ConfigurationVM, OpenSource, ApprendreLinux]
 ---
 
----
-
 ## Introduction
 Ce guide couvre l'installation de VirtualBox, un logiciel de virtualisation open source, et d'Ubuntu, une distribution Linux populaire, en tant que machine virtuelle. Une machine virtuelle permet d'executer un OS comme Ubuntu sans affecter le systeme principal, ideal pour experimenter et apprendre Linux.
 
@@ -106,5 +104,3 @@ Les VM sont particulierement utilisees pour tester de nouveaux environnements ou
 
 ## Conclusion
 Votre VM Ubuntu est maintenant installee et prete a etre utilisee ! Vous pouvez explorer Linux en toute securite dans un environnement isole.
-
----
