@@ -12,7 +12,6 @@ tags: [Ubuntu, Linux, Guide, Debutant, Interface, Bureau, Dock, Personnalisation
 ## Introduction
 Comme on peut le voir, Ubuntu a une interface elegante et une facilite d'utilisation ainsi que des couleur violace reconnaissable. Dans ce guide nous allons faire un tour de ce que l'on voit a l'ecran  presenter les elements essentiels de son interface.
 
-![[Pasted image 20241113103959.png]]
 
 ## 1. Le Dock (Barre laterale)
 Le dock est situe sur le cote gauche de l'ecran et contient :
