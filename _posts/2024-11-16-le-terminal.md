@@ -381,13 +381,12 @@ ls
     Copier le code
     ```bash
     clear
-```
+    ```
     ou appuyez sur **`Ctrl + L`**.
     
 3. **Apres nettoyage** :  
     L'ecran sera vide, pret pour de nouvelles commandes.
     
-
 ---
 
 ## Commandes complementaires
@@ -398,5 +397,3 @@ ls
 ---
 ## Conclusion
 Ces commandes vous permettent de naviguer dans le systeme de fichiers et de gerer les dossiers et fichiers sans interface graphique. Avec de la pratique, vous deviendrez rapidement a l'aise avec le terminal.
-
----
