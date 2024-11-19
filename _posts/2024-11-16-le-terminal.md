@@ -395,5 +395,33 @@ ls
 - **`history`** : Pour afficher l'historique des commandes executees
 
 ---
+
 ## Conclusion
-Ces commandes vous permettent de naviguer dans le systeme de fichiers et de gerer les dossiers et fichiers sans interface graphique. Avec de la pratique, vous deviendrez rapidement a l'aise avec le terminal.
+Cette leçon nous a permis d'explorer les fondamentaux pour naviguer et gérer les fichiers dans un terminal Linux/Ubuntu.
+
+### Points clés abordés
+- Navigation dans le système de fichiers :
+  - Localisation dans l'arborescence (`pwd`)
+  - Listage des fichiers et dossiers (`ls`)
+  - Déplacement entre les répertoires (`cd`)
+  - Identification de l'utilisateur (`whoami`)
+
+- Manipulation des fichiers et dossiers :
+  - Création de dossiers (`mkdir`)
+  - Création de fichiers (`touch`)
+  - Suppression de fichiers (`rm`) et dossiers (`rmdir`)
+  - Visualisation du contenu des fichiers (`cat`)
+
+- Gestion de l'interface terminal :
+  - Nettoyage de l'écran (`clear` ou Ctrl + L)
+  - Navigation dans l'historique des commandes
+  - Utilisation des chemins absolus et relatifs
+
+### Compétences acquises
+À ce stade, vous devriez être capable de :
+- Naviguer efficacement dans l'arborescence des fichiers via le terminal
+- Créer et organiser une structure de fichiers/dossiers
+- Manipuler les fichiers (création, lecture, suppression)
+- Comprendre la différence entre chemins absolus et relatifs
+- Utiliser le terminal comme alternative au gestionnaire de fichiers graphique
+- Appliquer les bonnes pratiques de sécurité lors de la suppression de fichiers
