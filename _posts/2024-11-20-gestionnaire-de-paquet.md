@@ -108,5 +108,3 @@ Le gestionnaire de paquets APT est un outil puissant et essentiel dans l'ecosyst
 3. Privilegier les paquets des depots officiels
 4. Verifier la source des fichiers .deb externes
 5. Utiliser `apt policy` avant l'installation pour verifier les versions
-
----
