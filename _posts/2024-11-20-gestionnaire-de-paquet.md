@@ -48,7 +48,7 @@ prenons un exemple avec vim mon editeur de texte. Il est installer avec la versi
 ![cache policy!](/images/cache-policy-yes.png){: width="750" }
 
 Au contraire bluefish n'est pas installe sur mon susteme et nous le fais savoir. Il nous dis aussi ou l'on peu telecharger le .deb file pour l'installer manuellement ou utiliser sudo apt install bluefish pour l'installer via le gestionnaire de paquet
-![cache policy](image/cache-policy-none){: width="750"}
+![cache policy!](/images/cache-policy-none){: width="750"}
 
 
 ### Installation manuelle de paquets .deb
