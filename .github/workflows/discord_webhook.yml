@@ -11,10 +11,20 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+      
+    - name: Get post title
+      id: get_title
+      run: |
+        # Récupérer le titre du dernier commit
+        TITLE=$(git log -1 --pretty=%s)
+        echo "::set-output name=title::$TITLE"
+      
     - name: Send Discord Notification
       env:
-        DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_API_WEBHOOK }}  # Corriger la référence ici
+        DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_API_WEBHOOK }}
       run: |
         curl -X POST -H "Content-Type: application/json" \
-        -d '{"content": "📢 @everyone Nouveau contenu disponible sur le site https://3ktone.github.io/ !"}' \
+        -d "{\"content\": \"📢 @everyone Nouveau post : **${{ steps.get_title.outputs.title }}**\n👉 https://ton-site.github.io/ton-post\"}" \
         "$DISCORD_WEBHOOK_URL"
