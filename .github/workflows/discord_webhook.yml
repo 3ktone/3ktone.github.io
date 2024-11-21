@@ -26,5 +26,5 @@ jobs:
         DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_API_WEBHOOK }}
       run: |
         curl -X POST -H "Content-Type: application/json" \
-        -d "{\"content\": \"📢 @everyone Nouveau post : **${{ steps.get_title.outputs.title }}**\n👉 https://ton-site.github.io/ton-post\"}" \
+        -d "{\"content\": \"📢 @everyone Nouveau post : **${{ steps.get_title.outputs.title }}**\n👉 https://3ktone.github.io/ton-post\"}" \
         "$DISCORD_WEBHOOK_URL"
