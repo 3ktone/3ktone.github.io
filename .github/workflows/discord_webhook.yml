@@ -13,7 +13,7 @@ jobs:
     steps:
     - name: Send Discord Notification
       env:
-        DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}  # Corriger la référence ici
+        DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_API_WEBHOOK }}  # Corriger la référence ici
       run: |
         curl -X POST -H "Content-Type: application/json" \
         -d '{"content": "Un nouveau commit a été poussé sur la branche main 🚀 !"}' \
