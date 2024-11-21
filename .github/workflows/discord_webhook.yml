@@ -19,12 +19,13 @@ jobs:
       run: |
         # Récupérer le titre du dernier commit
         TITLE=$(git log -1 --pretty=%s)
-        echo "::set-output name=title::$TITLE"
+        echo "title=$TITLE" >> $GITHUB_OUTPUT
       
     - name: Send Discord Notification
       env:
         DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_API_WEBHOOK }}
+        POST_TITLE: ${{ steps.get_title.outputs.title }}
       run: |
         curl -X POST -H "Content-Type: application/json" \
-        -d "{\"content\": \"📢 @everyone Nouveau post : **${{ steps.get_title.outputs.title }}**\n👉 https://3ktone.github.io/ton-post\"}" \
+        -d "{\"content\": \"📢 @everyone Nouveau post : **$POST_TITLE**\n👉 https://3ktone.github.io/\"}" \
         "$DISCORD_WEBHOOK_URL"
