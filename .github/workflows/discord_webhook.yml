@@ -1,0 +1,33 @@
+name: Discord Webhook Notification
+
+on:
+  push:
+    branches:
+      - main  # Change selon ta branche principale
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: pip install requests
+
+    - name: Send Discord Notification
+      env:
+        WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+      run: |
+        python -c "
+import requests
+webhook_url = '${{ secrets.DISCORD_WEBHOOK_URL }}'
+data = {'content': '📢 Nouveau post sur le site !'}
+requests.post(webhook_url, json=data)
+"
