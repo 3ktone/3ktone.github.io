@@ -16,5 +16,5 @@ jobs:
         DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_API_WEBHOOK }}  # Corriger la référence ici
       run: |
         curl -X POST -H "Content-Type: application/json" \
-        -d '{"content": "Un nouveau commit a été poussé sur la branche main 🚀 !"}' \
+        -d '{"content": "📢 @everyone Nouveau contenu disponible sur le site https://3ktone.github.io/ !"}' \
         "$DISCORD_WEBHOOK_URL"
