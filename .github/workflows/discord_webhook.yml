@@ -3,17 +3,16 @@ name: Discord Webhook Notification
 on:
   push:
     branches:
-      - main  # Change selon la branche principale de ton dépôt
+      - main
 
 jobs:
   notify-discord:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Send Discord Notification
-      env:
-        WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-      run: |
-        curl -X POST -H "Content-Type: application/json" \
-        -d '{"content": "📢 Nouveau post : **Titre de l'article**\n👉 https://ton-site.github.io/ton-post"}' \
-        "$DISCORD_WEBHOOK_URL"
+      - name: Send Discord Notification
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          curl -X POST -H "Content-Type: application/json" \
+          -d '{"content": "Un nouveau commit a été poussé sur la branche main 🚀 !"}' \
+          "$DISCORD_WEBHOOK_URL"
