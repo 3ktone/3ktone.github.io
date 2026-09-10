@@ -4,6 +4,9 @@ source "https://rubygems.org"
 
 gem "jekyll-theme-chirpy", "~> 6.1"
 
+# Ruby 3.4 no longer activates ERB automatically for Jekyll.
+gem "erb"
+
 group :test do
   gem "html-proofer", "~> 3.18"
 end
