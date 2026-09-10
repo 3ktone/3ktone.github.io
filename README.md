@@ -34,6 +34,21 @@ $ bundle
 
 Please see the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#documentation).
 
+## Publier un article
+
+1. Créez le fichier `_posts/AAAA-MM-JJ-titre.md` avec un en-tête YAML valide.
+2. Vérifiez les changements avec `git status`.
+3. Publiez-les avec :
+
+```shell
+git add _posts/AAAA-MM-JJ-titre.md
+git commit -m "post: ajouter titre"
+git pull --rebase origin main
+git push origin main
+```
+
+Chaque envoi sur `main` déclenche automatiquement le workflow **Deploy Jekyll site to Pages**. Son état est visible dans l'onglet **Actions** du dépôt.
+
 ## License
 
 This work is published under [MIT][mit] License.
