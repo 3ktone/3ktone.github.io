@@ -1,15 +1,15 @@
 ---
 draft: false
-title: "Apprendre la technique, étape par étape."
-description: "Tutoriels et documentation informatique en français autour de Linux, des réseaux et du Web."
-heroCaption: "TalosInfoTek"
-heroLead: "Des explications claires, des parcours structurés et des exercices pratiques pour comprendre ce qui se passe derrière l’écran."
+title: Apprendre par la pratique, étape par étape.
+description: Tutoriels et documentation informatique en français autour de Linux, des réseaux et du Web.
+heroCaption: TalosInfoTek
+heroLead: Des explications claires, des parcours structurés et des exercices pratiques pour comprendre ce qui se passe derrière l’écran.
 heroButtons:
-  - label: "Commencer le parcours Linux"
-    url: "/docs/linux/"
-  - label: "Explorer toute la documentation"
-    url: "/docs/"
-    style: "outline"
+  - label: Commencer le parcours Linux
+    url: /docs/linux/
+  - label: Explorer toute la documentation
+    url: /docs/
+    style: outline
 ---
 
 <div class="talos-intro">
