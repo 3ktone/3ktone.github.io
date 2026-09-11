@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "Linux pour débutants"
 description: "Un parcours progressif pour installer, comprendre et administrer un système Linux."
 weight: 30
