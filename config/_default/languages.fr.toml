@@ -1,0 +1,21 @@
+disabled = false
+locale = "fr"
+label = "Français"
+weight = 1
+title = "TalosInfoTek"
+
+[params]
+  displayName = "FR"
+  isoCode = "fr"
+  rtl = false
+  dateFormat = "2 January 2006"
+  description = "Tutoriels techniques et documentation informatique en français."
+
+[params.author]
+  name = "Eric · 3ktone"
+  image = "img/avatar.jpg"
+  headline = "Comprendre, pratiquer, devenir autonome."
+  bio = "Guides pratiques et documentation autour de Linux, des réseaux et de l’informatique."
+  links = [
+    { github = "https://github.com/3ktone" }
+  ]

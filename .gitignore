@@ -1,22 +1,21 @@
-# Bundler cache
-.bundle
-vendor
-Gemfile.lock
+# Hugo
+/public/
+/resources/_gen/
+.hugo_build.lock
 
-# Jekyll cache
-.jekyll-cache
-_site
+# Local caches and tooling
+.cache/
+.bundle/
+vendor/
+.jekyll-cache/
+_site/
+__pycache__/
+*.pyc
 
-# RubyGems
-*.gem
+# Editors
+.idea/
+.vscode/
 
-# NPM dependencies
-node_modules
-package-lock.json
-
-# IDE configurations
-.idea
-.vscode
-
-# Misc
-assets/js/dist
+# OS files
+.DS_Store
+Thumbs.db

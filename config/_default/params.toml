@@ -1,0 +1,96 @@
+colorScheme = "ocean"
+defaultAppearance = "dark"
+autoSwitchAppearance = true
+
+enableA11y = true
+enableSearch = true
+enableCodeCopy = true
+enableStructuredBreadcrumbs = true
+mainSections = ["docs", "tutoriels", "blog"]
+
+disableImageOptimization = false
+disableImageOptimizationMD = false
+hotlinkFeatureImage = false
+highlightCurrentMenuArea = true
+smartTOC = true
+smartTOCHideUnfocusedChildren = false
+fingerprintAlgorithm = "sha512"
+
+[header]
+  layout = "fixed-fill-blur"
+  mobileMenuStyle = "dropdown"
+
+[footer]
+  showMenu = true
+  showCopyright = true
+  showThemeAttribution = true
+  showAppearanceSwitcher = true
+  showScrollToTop = true
+
+[homepage]
+  layout = "landing"
+  showRecent = true
+  showRecentItems = 9
+  showMoreLink = true
+  showMoreLinkDest = "/docs/"
+  cardView = true
+  cardViewScreenWidth = false
+
+[article]
+  showDate = true
+  showDateOnlyInArticle = false
+  showDateUpdated = true
+  showAuthor = true
+  showHero = false
+  showBreadcrumbs = true
+  showDraftLabel = true
+  showEdit = true
+  editURL = "https://github.com/3ktone/3ktone.github.io/edit/main/content"
+  editAppendPath = true
+  showHeadingAnchors = true
+  showPagination = true
+  invertPagination = false
+  showReadingTime = true
+  showReadingProgress = true
+  showTableOfContents = true
+  showRelatedContent = true
+  relatedContentLimit = 4
+  showTaxonomies = true
+  showCategories = true
+  showTags = true
+  showCategoriesInSecondaryColor = true
+  showAuthorsBadges = false
+  showWordCount = false
+  seriesOpened = true
+  showZenMode = true
+  sharingLinks = ["linkedin", "bluesky", "reddit", "email"]
+
+[list]
+  showHero = false
+  showBreadcrumbs = true
+  showSummary = true
+  showTableOfContents = false
+  showCards = true
+  orderByWeight = true
+  groupByYear = false
+  cardView = true
+  cardViewScreenWidth = false
+  constrainItemsWidth = false
+
+[taxonomy]
+  showTermCount = true
+  showHero = false
+  showBreadcrumbs = true
+  showTableOfContents = false
+  cardView = false
+
+[term]
+  showHero = false
+  showBreadcrumbs = true
+  showTableOfContents = false
+  groupByYear = false
+  cardView = true
+  cardViewScreenWidth = false
+
+[sitemap]
+  excludedKinds = []

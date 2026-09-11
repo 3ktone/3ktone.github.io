@@ -1,60 +1,54 @@
-# Chirpy Starter [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)](https://rubygems.org/gems/jekyll-theme-chirpy) [![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+# TalosInfoTek
 
-When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders `/_data`, `/_layouts`, `/_includes`, `/_sass` and `/assets`, as well as a small part of options of the `/_config.yml` file from the theme's gem. If you have ever installed this theme gem, you can use the command `bundle info --path jekyll-theme-chirpy` to locate these files.
+Site francophone de tutoriels techniques et de documentation autour de Linux, des réseaux et de l’informatique.
 
-The Jekyll team claims that this is to leave the ball in the user’s court, but this also results in users not being able to enjoy the out-of-the-box experience when using feature-rich themes.
+Le site utilise [Hugo](https://gohugo.io/) et le thème [Blowfish](https://blowfish.page/).
 
-To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your Jekyll site. The following is a list of targets:
+## Développement local
 
-```shell
-.
-├── _config.yml
-├── _plugins
-├── _tabs
-└── index.html
-```
-
-To save you time, and also in case you lose some files while copying, we extract those files/configurations of the latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
-
-## Prerequisites
-
-Follow the instructions in the [Jekyll Docs](https://jekyllrb.com/docs/installation/) to complete the installation of the basic environment. [Git](https://git-scm.com/) also needs to be installed.
-
-## Installation
-
-Sign in to GitHub and [**use this template**][use-template] to generate a brand new repository and name it `USERNAME.github.io`, where `USERNAME` represents your GitHub username.
-
-Then clone it to your local machine and run:
-
-```
-$ bundle
-```
-
-## Usage
-
-Please see the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#documentation).
-
-## Publier un article
-
-1. Créez le fichier `_posts/AAAA-MM-JJ-titre.md` avec un en-tête YAML valide.
-2. Vérifiez les changements avec `git status`.
-3. Publiez-les avec :
+Hugo Extended 0.162.0 à 0.165.x est nécessaire pour la version de Blowfish actuellement épinglée.
 
 ```shell
-git add _posts/AAAA-MM-JJ-titre.md
-git commit -m "post: ajouter titre"
+git clone --recurse-submodules https://github.com/3ktone/3ktone.github.io.git
+cd 3ktone.github.io
+hugo server --buildDrafts
+```
+
+Le site local est ensuite accessible à l’adresse indiquée par Hugo, généralement `http://localhost:1313/`.
+
+## Ajouter une page
+
+La documentation est organisée sous `content/docs/` et les guides pratiques sous `content/tutoriels/`. Chaque article utilise un *leaf bundle* :
+
+```text
+content/docs/linux/mon-sujet/
+├── index.md
+├── capture-1.png
+└── capture-2.png
+```
+
+Créez la page, vérifiez-la localement, puis publiez-la :
+
+```shell
+git add content/
+git commit -m "docs: ajouter mon sujet"
 git pull --rebase origin main
 git push origin main
 ```
 
-Chaque envoi sur `main` déclenche automatiquement le workflow **Deploy Jekyll site to Pages**. Son état est visible dans l'onglet **Actions** du dépôt.
+Chaque envoi sur `main` déclenche automatiquement la construction et le déploiement sur GitHub Pages.
 
-## License
+## Mise à jour du thème
 
-This work is published under [MIT][mit] License.
+Blowfish est enregistré comme sous-module Git et épinglé à une version testée. Pour choisir explicitement une nouvelle version :
 
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[use-template]: https://github.com/cotes2020/chirpy-starter/generate
-[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+```shell
+git -C themes/blowfish fetch --tags
+git -C themes/blowfish checkout vX.Y.Z
+git add themes/blowfish
+git commit -m "chore: mettre à jour Blowfish vers vX.Y.Z"
+```
+
+## Licence
+
+Le contenu et le code de ce dépôt sont publiés sous la licence indiquée dans [LICENSE](LICENSE).
