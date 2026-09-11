@@ -1,0 +1,63 @@
+theme = "blowfish"
+baseURL = "https://3ktone.github.io/"
+defaultContentLanguage = "fr"
+defaultContentLanguageInSubdir = false
+title = "TalosInfoTek"
+
+timeZone = "Europe/Paris"
+enableRobotsTXT = true
+enableEmoji = true
+buildDrafts = false
+buildFuture = false
+summaryLength = 32
+pluralizeListTitles = false
+
+[pagination]
+  pagerSize = 20
+
+[imaging]
+  anchor = "Center"
+
+  [imaging.jpeg]
+    quality = 85
+
+  [imaging.webp]
+    quality = 82
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  author = "authors"
+  series = "series"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[caches]
+  [caches.images]
+    dir = ":cacheDir/images"
+
+[related]
+  threshold = 0
+  toLower = true
+
+  [[related.indices]]
+    name = "tags"
+    weight = 100
+
+  [[related.indices]]
+    name = "categories"
+    weight = 100
+
+  [[related.indices]]
+    name = "series"
+    weight = 80
+
+  [[related.indices]]
+    name = "date"
+    weight = 10

@@ -1,0 +1,58 @@
+[[main]]
+  name = "Documentation"
+  pageRef = "docs"
+  weight = 10
+
+[[main]]
+  name = "Fondamentaux"
+  parent = "Documentation"
+  pageRef = "docs/fondamentaux"
+  weight = 11
+
+[[main]]
+  name = "Réseaux"
+  parent = "Documentation"
+  pageRef = "docs/reseaux"
+  weight = 12
+
+[[main]]
+  name = "Linux"
+  parent = "Documentation"
+  pageRef = "docs/linux"
+  weight = 13
+
+[[main]]
+  name = "Tutoriels"
+  pageRef = "tutoriels"
+  weight = 20
+
+[[main]]
+  name = "Blog"
+  pageRef = "blog"
+  weight = 30
+
+[[main]]
+  name = "À propos"
+  pageRef = "a-propos"
+  weight = 40
+
+[[main]]
+  identifier = "github"
+  pre = "github"
+  url = "https://github.com/3ktone/3ktone.github.io"
+  weight = 100
+
+[[footer]]
+  name = "Documentation"
+  pageRef = "docs"
+  weight = 10
+
+[[footer]]
+  name = "Tags"
+  pageRef = "tags"
+  weight = 20
+
+[[footer]]
+  name = "RSS"
+  url = "/index.xml"
+  weight = 30
