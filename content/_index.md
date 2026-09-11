@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "Apprendre la technique, étape par étape."
 description: "Tutoriels et documentation informatique en français autour de Linux, des réseaux et du Web."
 heroCaption: "TalosInfoTek"

@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "À propos"
 description: "L’histoire et la mission de TalosInfoTek."
 aliases:

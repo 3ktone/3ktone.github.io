@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "Fondamentaux de l’informatique"
 description: "Les machines, Internet et les notions indispensables pour construire une base solide."
 weight: 10

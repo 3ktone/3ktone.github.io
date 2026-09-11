@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "Tags"
 description: "Tous les sujets abordés sur TalosInfoTek."
 aliases:

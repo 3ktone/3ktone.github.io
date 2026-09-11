@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "Blog"
 description: "Actualités du site, réflexions et retours d’expérience."
 aliases:

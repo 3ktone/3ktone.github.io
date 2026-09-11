@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "Catégories"
 description: "Les grandes familles de contenus publiés sur TalosInfoTek."
 aliases:
